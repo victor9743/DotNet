@@ -1,0 +1,15 @@
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\bin\Debug\net6.0\helloWolrd.exe
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\bin\Debug\net6.0\helloWolrd.deps.json
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\bin\Debug\net6.0\helloWolrd.runtimeconfig.json
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\bin\Debug\net6.0\helloWolrd.dll
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\bin\Debug\net6.0\helloWolrd.pdb
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.csproj.AssemblyReference.cache
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.AssemblyInfoInputs.cache
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.AssemblyInfo.cs
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.csproj.CoreCompileInputs.cache
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.dll
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\refint\helloWolrd.dll
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.pdb
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\helloWolrd.genruntimeconfig.cache
+C:\Users\Victor C\Desktop\DotNet\helloWolrd\obj\Debug\net6.0\ref\helloWolrd.dll

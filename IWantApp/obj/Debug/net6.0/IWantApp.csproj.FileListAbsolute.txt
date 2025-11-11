@@ -1,0 +1,15 @@
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/IWantApp
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/IWantApp.deps.json
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/IWantApp.runtimeconfig.json
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/IWantApp.dll
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/ref/IWantApp.dll
+/home/victor/desenvolvimento/DotNet/IWantApp/bin/Debug/net6.0/IWantApp.pdb
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.csproj.AssemblyReference.cache
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.AssemblyInfoInputs.cache
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.AssemblyInfo.cs
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.csproj.CoreCompileInputs.cache
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.dll
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/ref/IWantApp.dll
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.pdb
+/home/victor/desenvolvimento/DotNet/IWantApp/obj/Debug/net6.0/IWantApp.genruntimeconfig.cache

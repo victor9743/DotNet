@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MIcrosoft.EntityFrameworkCore" Version="6.0.31" />
+    <PackageReference Include="MIcrosoft.EntityFrameworkCore.Design" Version="6.0.31">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MIcrosoft.EntityFrameworkCore.SqlServer" Version="6.0.31" />
+  </ItemGroup>
+
 </Project>

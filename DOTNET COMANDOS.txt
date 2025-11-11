@@ -1,0 +1,102 @@
+DOTNET COMANDOS
+
+- criar um projeto
+criar um pasta com nome do projeto, depois entrar na pasta e rodar
+dotnet new console
+
+- executando o projeto
+dotnet run ( precisando restartar a cada alteração )
+dotnet watch run ( altera automaticamente a cada alteração sem precisar restartar)
+
+- gerenciador de pacotes dotnet: nuget(https://www.nuget.org/)
+
+- adicionando um pacote
+dotnet add package FluentColorConsole --version 2.0.1
+
+todos os pacotes adicionados ficam no nome_projeto.csproj, sendo carregaveis por outro programador 
+com o comando dotnet build
+
+- usando um pacote
+using FluentColorConsole;
+
+
+- trabalhando com o entity framework core ( usar o --version caso esteja a versão .net 6)
+dotnet add package MIcrosoft.EntityFrameworkCore --version 6.0.31
+dotnet add package MIcrosoft.EntityFrameworkCore.Design --version 6.0.31
+dotnet add package MIcrosoft.EntityFrameworkCore.SqlServer --version 6.0.31 ( se usar Sql Server )
+
+- conectando a um banco de dados
+using Microsoft.EntityFrameworkCore;
+
+
+- função de conexão com o banco de dados
+protected override void OnConfiguring(DbContextOptionsBuilder options)
+        => options.UseSqlServer(
+            "Server=localhost;Database=products_db; User Id=sa; Password=Sqlserver@2025;MultipleActiveResultSets=true;Encrypt=Yes;TrustServerCertificate=YES");
+
+
+- adicionando o dbcontext como um serviço
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApplicationDBContext>();
+
+- para executar as migrations via terminal, necessário adicionar pacote ao nuget
+dotnet tool install --global dotnet-ef --version 6.0.31
+
+- criando uma mirgation
+dotnet ef migrations add create_products(nome da migrations fica a critério do usuário)
+
+- aplicando uma migration no banco
+dotnet ef database update
+
+- removendo o último migrate
+dotnet ef migrations remove
+
+- revertendo uma migration para uma determinada migration, removendo as migrations posteriores
+dotnet ef database update 20251110134244_create_products(migration em que ficara versionada o banco de dados)
+
+
+- modulando as tabelas adicionando campos não obrigatório e tamanhos do campo
+protected override void OnModelCreating(ModelBuilder builder)
+{
+  builder.Entity<Product>()
+  .Property(p => p.Description).HasMaxLength(500).IsRequired(false);
+}
+
+dotnet ef migrations add configuration_table_products
+
+- criando uma chave estrangeira
+
+
+public class Category
+{
+    public int Id { get; set; }
+    public int Name { get; set; }
+}
+
+public class Tag
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
+public class Product
+{
+    public int Id { get; set; }
+    public string Code { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
+    
+    // one to one
+    public int CategoryId { get; set; }
+    public Category Category { get; set; }
+
+    // many to many
+    public List<Tag> Tags { get; set; }
+}
+
+depois de cada alteração sempre rodar estes dois comandos
+dotnet ef migrations add category_table 
+dotnet ef database update
+
+- comando para alterar pacotes do nuget
+dotnet tool install --global dotnet-outdated-tool

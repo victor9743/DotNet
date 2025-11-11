@@ -1,0 +1,17 @@
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/teste_1
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/teste_1.deps.json
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/teste_1.runtimeconfig.json
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/teste_1.dll
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/ref/teste_1.dll
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/teste_1.pdb
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.csproj.AssemblyReference.cache
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.AssemblyInfoInputs.cache
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.AssemblyInfo.cs
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.csproj.CoreCompileInputs.cache
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.dll
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/ref/teste_1.dll
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.pdb
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.genruntimeconfig.cache
+/home/victor/desenvolvimento/dotnet/teste_1/bin/Debug/net6.0/FluentColorConsole.dll
+/home/victor/desenvolvimento/dotnet/teste_1/obj/Debug/net6.0/teste_1.csproj.CopyComplete
